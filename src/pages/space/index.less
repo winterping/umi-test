@@ -1,0 +1,37 @@
+.ant-space {
+  display: inline-flex;
+
+  &-vertical {
+    flex-direction: column;
+  }
+
+  &-align {
+    &-center {
+      align-items: center;
+    }
+
+    &-start {
+      align-items: flex-start;
+    }
+
+    &-end {
+      align-items: flex-end;
+    }
+
+    &-baseline {
+      align-items: baseline;
+    }
+  }
+}
+
+.ant-space {
+  &-rtl {
+    direction: rtl;
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
